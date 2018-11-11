@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HYTextInput_Example' do
+  pod 'HYTextInput', :path => '../'
+
+  target 'HYTextInput_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
