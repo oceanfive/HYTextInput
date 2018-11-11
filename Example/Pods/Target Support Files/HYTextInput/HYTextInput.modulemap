@@ -1,0 +1,6 @@
+framework module HYTextInput {
+  umbrella header "HYTextInput-umbrella.h"
+
+  export *
+  module * { export * }
+}

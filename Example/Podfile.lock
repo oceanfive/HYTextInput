@@ -1,0 +1,16 @@
+PODS:
+  - HYTextInput (0.0.1)
+
+DEPENDENCIES:
+  - HYTextInput (from `../`)
+
+EXTERNAL SOURCES:
+  HYTextInput:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYTextInput: c5d710ea06fd7aff116832fa9cd2c1b0c560bdee
+
+PODFILE CHECKSUM: fec71f9eb207fffcd4669b621d279cf394636cbf
+
+COCOAPODS: 1.5.2

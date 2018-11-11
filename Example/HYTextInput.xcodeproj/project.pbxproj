@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0E91D1D152430E0AAF42FD95 /* Pods-HYTextInput_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYTextInput_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYTextInput_Tests/Pods-HYTextInput_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0EC4DEB2285E7437447C935A /* HYTextInput.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HYTextInput.podspec; path = ../HYTextInput.podspec; sourceTree = "<group>"; };
+		0EC4DEB2285E7437447C935A /* HYTextInput.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HYTextInput.podspec; path = ../HYTextInput.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1E7CE819484FB28457F545A0 /* Pods_HYTextInput_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYTextInput_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		365098DD7B18EC3637166F3D /* Pods-HYTextInput_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYTextInput_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYTextInput_Example/Pods-HYTextInput_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HYTextInput_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYTextInput_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +65,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF6188242439B2C56E1473D8 /* Pods_HYTextInput_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYTextInput_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A427CD687CED16C3B8C047 /* Pods-HYTextInput_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYTextInput_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYTextInput_Tests/Pods-HYTextInput_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E315A457FBA329CFC0624172 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FEDD8ECC69783901CD1C4C68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E315A457FBA329CFC0624172 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FEDD8ECC69783901CD1C4C68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
