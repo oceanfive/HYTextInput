@@ -134,12 +134,12 @@ git push origin master --tags
 echo "\n\n ------ 执行 pod 远端校验 ------ "
 # pod 远端校验
 echo "\npod spec lint --allow-warnings --verbose"
-pod spec lint --sources='https://github.com/CocoaPods/Specs.git' --allow-warnings --verbose
+pod spec lint --allow-warnings --verbose
 
 echo "\n\n ------ 执行 pod 发布 ------ \n"
 # 发布
 echo "\npod trunk push --allow-warnings"
-pod trunk push --sources='https://github.com/CocoaPods/Specs.git' --allow-warnings
+pod trunk push --allow-warnings
 
 echo "\n\n****** ${pod_spec_name} ${pod_spec_version} end ****** \n"
 
