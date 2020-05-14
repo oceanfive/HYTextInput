@@ -7,332 +7,293 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A8FF4C360964389FF9E3A36D54909A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		18BC4C31D7D59B7F2D088608D63BD837 /* Pods-HYTextInput_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB63955E4BBEB432B9DACABF8A1149C8 /* Pods-HYTextInput_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		327B6C67531FCFC10E9FC80B43A9E61F /* HYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2AB06D7406665240DE3054F44A4903 /* HYTextView.m */; };
-		38B67691DB9CE54F56CAA700799911DB /* HYTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A79AC005ED795D8A3AC96C39F7139 /* HYTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5077E76E4BD7DC43E8EB26EFFAF2CB7B /* Pods-HYTextInput_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A927A82DE7B93EA743938C84D2CBB6 /* Pods-HYTextInput_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71340CF85EF23932A66CA17754B02A05 /* HYTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 37268A4F5CF0D549A4C2AD02C6FC85B0 /* HYTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		759F39DA83BBDE7D51A581AE96436253 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		75C5BD39B157A2F55D1C45936A000AD7 /* HYKeyBoardInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F187A210344701970996886CB17EDC /* HYKeyBoardInputView.m */; };
-		80E70557E283108DC626D7010B18285C /* HYTextInput-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCA8F22088835BE72FD53DE67E901F0 /* HYTextInput-dummy.m */; };
-		B711FFF7B3D2C813C6706A52167BD27B /* Pods-HYTextInput_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAD88618690E793A8F0E81B0B6098A0 /* Pods-HYTextInput_Tests-dummy.m */; };
-		BCB2FA52ECAD5A877107E32849814527 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		BE45D5A23BB50A763B8755224B3EED71 /* HYAutoIncreasingTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = DA7B245106E9F308B1E7A6E007B7DBCF /* HYAutoIncreasingTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6EBD90E3E6CC964A4A6C13C291F14A5 /* HYTextInput-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7701D0C1989259BA23088C2ACC74E80 /* HYTextInput-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA35266637510747B7DAE7BFA581AF98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		DBEDADE6B02FEE16C8F61B55259E356F /* HYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC006AE3445BBE1068A48A15E11A858 /* HYTextField.m */; };
-		E6986C1CBEF98B5B99F4075673FA8B15 /* Pods-HYTextInput_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0579815746EE85997579DDA2584F2E9 /* Pods-HYTextInput_Example-dummy.m */; };
-		F89DC854721B65B582EA1B90F900D0A9 /* HYAutoIncreasingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4230BB6DEA966CDED6EC55E242709 /* HYAutoIncreasingTextView.m */; };
-		FD0E0C98E1529AF28019A3EA03B1AA17 /* HYKeyBoardInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 930450B56DA59670837884F41970A0D7 /* HYKeyBoardInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD51A8124C3B6C47E728264CEF5D73B2 /* HYTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = BD40B61A0BE7E1301568A2D54068AF65 /* HYTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		001FFB7EEFBECE66281490261379FCB0 /* Pods-HYTextInput_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6EB59598A4EB2C0A18104CCB8B568A /* Pods-HYTextInput_Example-dummy.m */; };
+		01BA594B893508E6B8B579C45935616B /* HYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49508DE43C8C0887C05A7B18433F2D39 /* HYTextView.m */; };
+		2EEF8D6FE4B0DB81C978C42B563BFBAD /* HYTextInput-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE05F0F61AFE088424AFCD142ADE7A56 /* HYTextInput-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33CD102B107664E8E40187BD04A04F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		3D6507B7150B5BE6D86A2AA6848CAD5E /* HYAutoIncreasingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F31A8EDEA93B4D7536472314EF6C9C /* HYAutoIncreasingTextView.m */; };
+		3EE51D9ABC8CB685AD84C4F8D3188F1A /* HYKeyBoardInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 55398BDF8BBA26674663D2D9F2ACF44A /* HYKeyBoardInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A3084F185586FAF873EC1E80B625FCF /* HYKeyBoardInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FABD2459CF90CA9C08EC5708E1C12F71 /* HYKeyBoardInputView.m */; };
+		4D394FE08D2DEB734EC8347E356C3A72 /* HYTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = D47CEAC7710FC4AF32EF0A9CC1EE7820 /* HYTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		572005529800F5AFD503725BC261F9E9 /* HYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 884A2CA0EDFA2069AEBF58E1DB2D6FF9 /* HYTextField.m */; };
+		5FAB38D3BDBF69CD17F347F090BE98D0 /* HYTextInput-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E430FC60F8277EC28205786C4D23A228 /* HYTextInput-dummy.m */; };
+		95CD51628ECA05B205EC5713EC43E45F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		967B6CF076B2FE163D44D75C13733BF1 /* HYAutoIncreasingTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BBD75EBA3FFAC037E22429840C222E /* HYAutoIncreasingTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A81AB3C602141A74EF8A82ADE3A379 /* HYTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9688563CE933342FC6F84FB930593C /* HYTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD2EE057F38E01681B927F0E3FF9A602 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		BF8E901DEF43038271B2663EFDC84C7C /* Pods-HYTextInput_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA3387C5EDCE0C4593FBE851867AD1F /* Pods-HYTextInput_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5266F021E6CDEDB56987275B7F59758 /* Pods-HYTextInput_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D0CA16D7F9E1158BC253C2E7CBC650 /* Pods-HYTextInput_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C95B282AD37D9A04ADE23EEB599A91AD /* HYTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = F58F49CC2FD0333B3723507C663E6E2C /* HYTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD77438937659EA33B4D50F36B61D38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		D4F1CAE1D12F9DF7C5EA2D39C36465CA /* Pods-HYTextInput_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D12F402CD80BF736C63F203A2693AAF3 /* Pods-HYTextInput_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7356B43E4D99B608981F80513B52A6DA /* PBXContainerItemProxy */ = {
+		0C73FF444FE3936DC670B76F4CEF921C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BF764515CCFADECE3ABA6EDF5B0E2B11;
-			remoteInfo = HYTextInput;
-		};
-		DDB605D3DF1D1206953234303E4D8601 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 60AD8F95EBA26EB4691049069ECB0649;
+			remoteGlobalIDString = B39EBCA508E887B0E909FBF341E0BFFD;
 			remoteInfo = "Pods-HYTextInput_Example";
+		};
+		2CEC98BD634880E9C8075AC32921C1FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 487AEDBD003E9217F32004D7EF1408E4;
+			remoteInfo = HYTextInput;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05A927A82DE7B93EA743938C84D2CBB6 /* Pods-HYTextInput_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYTextInput_Example-umbrella.h"; sourceTree = "<group>"; };
-		08430D83B1B85DDE73D0150412AE38B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		091F3D75FF4B086CAD8545C7B5B65DAA /* Pods-HYTextInput_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYTextInput_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		12BBA00269C7B9FE5AC5B8CE5DBEA513 /* Pods-HYTextInput_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYTextInput_Tests.modulemap"; sourceTree = "<group>"; };
-		1E76E12B09DED8610FBC803CCD08FD21 /* Pods-HYTextInput_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYTextInput_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1F2AB06D7406665240DE3054F44A4903 /* HYTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYTextView.m; path = HYTextInput/Classes/HYTextView.m; sourceTree = "<group>"; };
-		2FAD88618690E793A8F0E81B0B6098A0 /* Pods-HYTextInput_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYTextInput_Tests-dummy.m"; sourceTree = "<group>"; };
-		3279C1C74740E46FDCB13DD8C965FF66 /* HYTextInput.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HYTextInput.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		37268A4F5CF0D549A4C2AD02C6FC85B0 /* HYTextInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYTextInput.h; path = HYTextInput/Classes/HYTextInput.h; sourceTree = "<group>"; };
-		3AC1159EB80E3548C66E5E892D75CD8C /* Pods-HYTextInput_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYTextInput_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3D9F20FC993965228BB6BB69198C5E52 /* Pods-HYTextInput_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYTextInput_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3E0FC705DB0E69D712C9D0BAAC3B33FE /* Pods-HYTextInput_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYTextInput_Example.modulemap"; sourceTree = "<group>"; };
-		498A79AC005ED795D8A3AC96C39F7139 /* HYTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYTextField.h; path = HYTextInput/Classes/HYTextField.h; sourceTree = "<group>"; };
-		50D9723C2C1CB1654DF497984EDE453A /* Pods-HYTextInput_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYTextInput_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		52E6F79F221F8B11A40DD9DEB6AD0DEB /* HYTextInput.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYTextInput.modulemap; sourceTree = "<group>"; };
-		596C385E2C86CF9434768BB499826499 /* Pods-HYTextInput_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYTextInput_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6C0ADADFAA19C75CF1048CED9FAF4C8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EB62852E4F88F137AEF81CB98C445D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		745B40CE912429A844FB282D38B908DD /* Pods-HYTextInput_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYTextInput_Tests-resources.sh"; sourceTree = "<group>"; };
-		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		930450B56DA59670837884F41970A0D7 /* HYKeyBoardInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYKeyBoardInputView.h; path = HYTextInput/Classes/HYKeyBoardInputView.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BC006AE3445BBE1068A48A15E11A858 /* HYTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYTextField.m; path = HYTextInput/Classes/HYTextField.m; sourceTree = "<group>"; };
-		9C6E8C4EB7D67C40A102F3DFC685FD91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0760B901F1492F11B50E1A1E73E650E /* Pods-HYTextInput_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYTextInput_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A1A2F31D898DC0B396D9FE8C9FEC1274 /* Pods-HYTextInput_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYTextInput_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A66E210FB756346E2AFC6558EF5FB606 /* Pods-HYTextInput_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYTextInput_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A7F187A210344701970996886CB17EDC /* HYKeyBoardInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYKeyBoardInputView.m; path = HYTextInput/Classes/HYKeyBoardInputView.m; sourceTree = "<group>"; };
-		A9C1FFE7F44FD11CA924B6901A27FDAB /* HYTextInput.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYTextInput.xcconfig; sourceTree = "<group>"; };
-		AA56EBE0C5CE7B23F441C099D7BB2B1A /* Pods-HYTextInput_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYTextInput_Example-resources.sh"; sourceTree = "<group>"; };
-		AB08A077DDA6A88DB675A805F2EA9359 /* HYTextInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYTextInput.framework; path = HYTextInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAD4230BB6DEA966CDED6EC55E242709 /* HYAutoIncreasingTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYAutoIncreasingTextView.m; path = HYTextInput/Classes/HYAutoIncreasingTextView.m; sourceTree = "<group>"; };
-		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BD40B61A0BE7E1301568A2D54068AF65 /* HYTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYTextView.h; path = HYTextInput/Classes/HYTextView.h; sourceTree = "<group>"; };
-		C0579815746EE85997579DDA2584F2E9 /* Pods-HYTextInput_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYTextInput_Example-dummy.m"; sourceTree = "<group>"; };
-		C64BBEAEEEAB7534FCEAF39158F4E065 /* Pods-HYTextInput_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYTextInput_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB63955E4BBEB432B9DACABF8A1149C8 /* Pods-HYTextInput_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYTextInput_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CCAD04E827A6DA12F87FDBA68AC86969 /* Pods_HYTextInput_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYTextInput_Example.framework; path = "Pods-HYTextInput_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7701D0C1989259BA23088C2ACC74E80 /* HYTextInput-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYTextInput-umbrella.h"; sourceTree = "<group>"; };
-		DA7B245106E9F308B1E7A6E007B7DBCF /* HYAutoIncreasingTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYAutoIncreasingTextView.h; path = HYTextInput/Classes/HYAutoIncreasingTextView.h; sourceTree = "<group>"; };
-		DBBAC98D707B43D9766B5C62AB9732F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		EA04176EEDD9B96A6CC1B45180A6F5B3 /* Pods_HYTextInput_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYTextInput_Tests.framework; path = "Pods-HYTextInput_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAD7C30FDFFE5E74DD0CD8A467D29748 /* HYTextInput-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYTextInput-prefix.pch"; sourceTree = "<group>"; };
-		FDCA8F22088835BE72FD53DE67E901F0 /* HYTextInput-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYTextInput-dummy.m"; sourceTree = "<group>"; };
+		01048532538476F816ECC9625A6E898B /* HYTextInput.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYTextInput.modulemap; sourceTree = "<group>"; };
+		04A79C71A55C7F2AD44AC02CA8A7BC9E /* Pods-HYTextInput_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYTextInput_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DF4F6683C229CFAB5A9920B72CCB3FD /* Pods-HYTextInput_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYTextInput_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1724DF7683512AF063D600CE7BE5749C /* HYTextInput-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYTextInput-prefix.pch"; sourceTree = "<group>"; };
+		1E2D114B42B407DB492625CCE8FBE169 /* Pods_HYTextInput_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYTextInput_Example.framework; path = "Pods-HYTextInput_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6EB59598A4EB2C0A18104CCB8B568A /* Pods-HYTextInput_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYTextInput_Example-dummy.m"; sourceTree = "<group>"; };
+		21502C630C8A01D10C7B9D480B4F8578 /* HYTextInput-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HYTextInput-Info.plist"; sourceTree = "<group>"; };
+		22EC8B8C61FFDE8576A72157C602E6A0 /* HYTextInput.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYTextInput.release.xcconfig; sourceTree = "<group>"; };
+		25920E4D6D2779AB33512F62C228F424 /* Pods_HYTextInput_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYTextInput_Tests.framework; path = "Pods-HYTextInput_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2769506BFD61C4501E2B9C13EB8D2665 /* HYTextInput.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYTextInput.debug.xcconfig; sourceTree = "<group>"; };
+		280352C7AF11EEF6C88949468398BAD9 /* Pods-HYTextInput_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYTextInput_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E9688563CE933342FC6F84FB930593C /* HYTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYTextView.h; path = HYTextInput/Classes/HYTextView.h; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		389FE0211882F1A343697F3C8A11DE80 /* Pods-HYTextInput_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYTextInput_Example.release.xcconfig"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		49508DE43C8C0887C05A7B18433F2D39 /* HYTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYTextView.m; path = HYTextInput/Classes/HYTextView.m; sourceTree = "<group>"; };
+		55398BDF8BBA26674663D2D9F2ACF44A /* HYKeyBoardInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYKeyBoardInputView.h; path = HYTextInput/Classes/HYKeyBoardInputView.h; sourceTree = "<group>"; };
+		626DB862060A605EA0142E0E17E1CFCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6A7090A0FDF523065D49FC8D9A82A645 /* Pods-HYTextInput_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYTextInput_Example-Info.plist"; sourceTree = "<group>"; };
+		71F31A8EDEA93B4D7536472314EF6C9C /* HYAutoIncreasingTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYAutoIncreasingTextView.m; path = HYTextInput/Classes/HYAutoIncreasingTextView.m; sourceTree = "<group>"; };
+		72B44FBBB1CE547652C59E3D55C9ACC0 /* Pods-HYTextInput_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYTextInput_Tests.modulemap"; sourceTree = "<group>"; };
+		7B419AD7C9D1297933B721BFDE1645EE /* HYTextInput.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HYTextInput.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		884A2CA0EDFA2069AEBF58E1DB2D6FF9 /* HYTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYTextField.m; path = HYTextInput/Classes/HYTextField.m; sourceTree = "<group>"; };
+		9878D52F1FD2D5C132E98B08A2F13C47 /* Pods-HYTextInput_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYTextInput_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		99BBD75EBA3FFAC037E22429840C222E /* HYAutoIncreasingTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYAutoIncreasingTextView.h; path = HYTextInput/Classes/HYAutoIncreasingTextView.h; sourceTree = "<group>"; };
+		9CA3387C5EDCE0C4593FBE851867AD1F /* Pods-HYTextInput_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYTextInput_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0C9DAFF982AEF98AF156476CC006FBF /* Pods-HYTextInput_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYTextInput_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A1FACF36C1D3E3131DF175F5DE554992 /* Pods-HYTextInput_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYTextInput_Tests-Info.plist"; sourceTree = "<group>"; };
+		AE2B95435F2242A570119D760799E7DC /* HYTextInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYTextInput.framework; path = HYTextInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFABBBA360BA5EF41DC36D56291C564 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BE05F0F61AFE088424AFCD142ADE7A56 /* HYTextInput-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYTextInput-umbrella.h"; sourceTree = "<group>"; };
+		CE8BECC35CDB87845A5F7651112578BC /* Pods-HYTextInput_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYTextInput_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D12F402CD80BF736C63F203A2693AAF3 /* Pods-HYTextInput_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYTextInput_Tests-dummy.m"; sourceTree = "<group>"; };
+		D14798C2188423A3EEB04DBD380EF357 /* Pods-HYTextInput_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYTextInput_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D47CEAC7710FC4AF32EF0A9CC1EE7820 /* HYTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYTextField.h; path = HYTextInput/Classes/HYTextField.h; sourceTree = "<group>"; };
+		E430FC60F8277EC28205786C4D23A228 /* HYTextInput-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYTextInput-dummy.m"; sourceTree = "<group>"; };
+		E7D0CA16D7F9E1158BC253C2E7CBC650 /* Pods-HYTextInput_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYTextInput_Example-umbrella.h"; sourceTree = "<group>"; };
+		F58F49CC2FD0333B3723507C663E6E2C /* HYTextInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYTextInput.h; path = HYTextInput/Classes/HYTextInput.h; sourceTree = "<group>"; };
+		FA792CFBD5C4E5ADC636968CC4AA93F6 /* Pods-HYTextInput_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYTextInput_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FABD2459CF90CA9C08EC5708E1C12F71 /* HYKeyBoardInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYKeyBoardInputView.m; path = HYTextInput/Classes/HYKeyBoardInputView.m; sourceTree = "<group>"; };
+		FCD98859AC0602A9F1CAC7D6B4D304E4 /* Pods-HYTextInput_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYTextInput_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2C3BC7F463CF1EBE3BCD91093F99F6F5 /* Frameworks */ = {
+		3FADE14B09784B4633D69C4A3DB70C2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCB2FA52ECAD5A877107E32849814527 /* Foundation.framework in Frameworks */,
+				95CD51628ECA05B205EC5713EC43E45F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B3EDA96E0CCE26D019C433D8EC033DD /* Frameworks */ = {
+		8B0A87069C81FAA4143CFA73FD57BC3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A8FF4C360964389FF9E3A36D54909A6 /* Foundation.framework in Frameworks */,
-				759F39DA83BBDE7D51A581AE96436253 /* UIKit.framework in Frameworks */,
+				CDD77438937659EA33B4D50F36B61D38 /* Foundation.framework in Frameworks */,
+				BD2EE057F38E01681B927F0E3FF9A602 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CF70D4881C43483532915EBBF9091FF /* Frameworks */ = {
+		B977C715D13B2FD36E3FEDB4243D69B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA35266637510747B7DAE7BFA581AF98 /* Foundation.framework in Frameworks */,
+				33CD102B107664E8E40187BD04A04F79 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08EEDF8CCE3C305E78A887435A136B8C /* Pod */ = {
+		009E0E3B6ABE59858A874B0CF53ADE2D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3279C1C74740E46FDCB13DD8C965FF66 /* HYTextInput.podspec */,
-				08430D83B1B85DDE73D0150412AE38B6 /* LICENSE */,
-				DBBAC98D707B43D9766B5C62AB9732F2 /* README.md */,
+				7B419AD7C9D1297933B721BFDE1645EE /* HYTextInput.podspec */,
+				626DB862060A605EA0142E0E17E1CFCE /* LICENSE */,
+				BCFABBBA360BA5EF41DC36D56291C564 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+		0125E600A7B6ED0CB347DFE1A8522894 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
-				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		2013BBB4CBA88BFF84274207FCAE7F57 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				418D3961D15643672AD47D6E56997EAF /* HYTextInput */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		418D3961D15643672AD47D6E56997EAF /* HYTextInput */ = {
-			isa = PBXGroup;
-			children = (
-				DA7B245106E9F308B1E7A6E007B7DBCF /* HYAutoIncreasingTextView.h */,
-				BAD4230BB6DEA966CDED6EC55E242709 /* HYAutoIncreasingTextView.m */,
-				930450B56DA59670837884F41970A0D7 /* HYKeyBoardInputView.h */,
-				A7F187A210344701970996886CB17EDC /* HYKeyBoardInputView.m */,
-				498A79AC005ED795D8A3AC96C39F7139 /* HYTextField.h */,
-				9BC006AE3445BBE1068A48A15E11A858 /* HYTextField.m */,
-				37268A4F5CF0D549A4C2AD02C6FC85B0 /* HYTextInput.h */,
-				BD40B61A0BE7E1301568A2D54068AF65 /* HYTextView.h */,
-				1F2AB06D7406665240DE3054F44A4903 /* HYTextView.m */,
-				08EEDF8CCE3C305E78A887435A136B8C /* Pod */,
-				FF024B6AC23E7501A529D051C6149700 /* Support Files */,
-			);
-			name = HYTextInput;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5D63ED668D479CCBD5497F31E49169ED /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AB08A077DDA6A88DB675A805F2EA9359 /* HYTextInput.framework */,
-				CCAD04E827A6DA12F87FDBA68AC86969 /* Pods_HYTextInput_Example.framework */,
-				EA04176EEDD9B96A6CC1B45180A6F5B3 /* Pods_HYTextInput_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		67800511C816CD500C8E109D7F430C97 /* Pods-HYTextInput_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6EB62852E4F88F137AEF81CB98C445D9 /* Info.plist */,
-				12BBA00269C7B9FE5AC5B8CE5DBEA513 /* Pods-HYTextInput_Tests.modulemap */,
-				C64BBEAEEEAB7534FCEAF39158F4E065 /* Pods-HYTextInput_Tests-acknowledgements.markdown */,
-				A66E210FB756346E2AFC6558EF5FB606 /* Pods-HYTextInput_Tests-acknowledgements.plist */,
-				2FAD88618690E793A8F0E81B0B6098A0 /* Pods-HYTextInput_Tests-dummy.m */,
-				A0760B901F1492F11B50E1A1E73E650E /* Pods-HYTextInput_Tests-frameworks.sh */,
-				745B40CE912429A844FB282D38B908DD /* Pods-HYTextInput_Tests-resources.sh */,
-				CB63955E4BBEB432B9DACABF8A1149C8 /* Pods-HYTextInput_Tests-umbrella.h */,
-				1E76E12B09DED8610FBC803CCD08FD21 /* Pods-HYTextInput_Tests.debug.xcconfig */,
-				3D9F20FC993965228BB6BB69198C5E52 /* Pods-HYTextInput_Tests.release.xcconfig */,
-			);
-			name = "Pods-HYTextInput_Tests";
-			path = "Target Support Files/Pods-HYTextInput_Tests";
-			sourceTree = "<group>";
-		};
-		718FE3768D55CD3739564EFFC0FCC3C3 /* Pods-HYTextInput_Example */ = {
-			isa = PBXGroup;
-			children = (
-				9C6E8C4EB7D67C40A102F3DFC685FD91 /* Info.plist */,
-				3E0FC705DB0E69D712C9D0BAAC3B33FE /* Pods-HYTextInput_Example.modulemap */,
-				50D9723C2C1CB1654DF497984EDE453A /* Pods-HYTextInput_Example-acknowledgements.markdown */,
-				A1A2F31D898DC0B396D9FE8C9FEC1274 /* Pods-HYTextInput_Example-acknowledgements.plist */,
-				C0579815746EE85997579DDA2584F2E9 /* Pods-HYTextInput_Example-dummy.m */,
-				596C385E2C86CF9434768BB499826499 /* Pods-HYTextInput_Example-frameworks.sh */,
-				AA56EBE0C5CE7B23F441C099D7BB2B1A /* Pods-HYTextInput_Example-resources.sh */,
-				05A927A82DE7B93EA743938C84D2CBB6 /* Pods-HYTextInput_Example-umbrella.h */,
-				091F3D75FF4B086CAD8545C7B5B65DAA /* Pods-HYTextInput_Example.debug.xcconfig */,
-				3AC1159EB80E3548C66E5E892D75CD8C /* Pods-HYTextInput_Example.release.xcconfig */,
-			);
-			name = "Pods-HYTextInput_Example";
-			path = "Target Support Files/Pods-HYTextInput_Example";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2013BBB4CBA88BFF84274207FCAE7F57 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				5D63ED668D479CCBD5497F31E49169ED /* Products */,
-				D7C24B4FA0A94B801170DDF1FDCA6C42 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		D7C24B4FA0A94B801170DDF1FDCA6C42 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				718FE3768D55CD3739564EFFC0FCC3C3 /* Pods-HYTextInput_Example */,
-				67800511C816CD500C8E109D7F430C97 /* Pods-HYTextInput_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FF024B6AC23E7501A529D051C6149700 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				52E6F79F221F8B11A40DD9DEB6AD0DEB /* HYTextInput.modulemap */,
-				A9C1FFE7F44FD11CA924B6901A27FDAB /* HYTextInput.xcconfig */,
-				FDCA8F22088835BE72FD53DE67E901F0 /* HYTextInput-dummy.m */,
-				FAD7C30FDFFE5E74DD0CD8A467D29748 /* HYTextInput-prefix.pch */,
-				D7701D0C1989259BA23088C2ACC74E80 /* HYTextInput-umbrella.h */,
-				6C0ADADFAA19C75CF1048CED9FAF4C8F /* Info.plist */,
+				01048532538476F816ECC9625A6E898B /* HYTextInput.modulemap */,
+				E430FC60F8277EC28205786C4D23A228 /* HYTextInput-dummy.m */,
+				21502C630C8A01D10C7B9D480B4F8578 /* HYTextInput-Info.plist */,
+				1724DF7683512AF063D600CE7BE5749C /* HYTextInput-prefix.pch */,
+				BE05F0F61AFE088424AFCD142ADE7A56 /* HYTextInput-umbrella.h */,
+				2769506BFD61C4501E2B9C13EB8D2665 /* HYTextInput.debug.xcconfig */,
+				22EC8B8C61FFDE8576A72157C602E6A0 /* HYTextInput.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HYTextInput";
 			sourceTree = "<group>";
 		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A8FD06E67777C265EB8FE48C0D0D825 /* Pods-HYTextInput_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				72B44FBBB1CE547652C59E3D55C9ACC0 /* Pods-HYTextInput_Tests.modulemap */,
+				280352C7AF11EEF6C88949468398BAD9 /* Pods-HYTextInput_Tests-acknowledgements.markdown */,
+				04A79C71A55C7F2AD44AC02CA8A7BC9E /* Pods-HYTextInput_Tests-acknowledgements.plist */,
+				D12F402CD80BF736C63F203A2693AAF3 /* Pods-HYTextInput_Tests-dummy.m */,
+				A1FACF36C1D3E3131DF175F5DE554992 /* Pods-HYTextInput_Tests-Info.plist */,
+				9CA3387C5EDCE0C4593FBE851867AD1F /* Pods-HYTextInput_Tests-umbrella.h */,
+				9878D52F1FD2D5C132E98B08A2F13C47 /* Pods-HYTextInput_Tests.debug.xcconfig */,
+				0DF4F6683C229CFAB5A9920B72CCB3FD /* Pods-HYTextInput_Tests.release.xcconfig */,
+			);
+			name = "Pods-HYTextInput_Tests";
+			path = "Target Support Files/Pods-HYTextInput_Tests";
+			sourceTree = "<group>";
+		};
+		3E8171A02FDA54EE595D0C85DB853D14 /* HYTextInput */ = {
+			isa = PBXGroup;
+			children = (
+				99BBD75EBA3FFAC037E22429840C222E /* HYAutoIncreasingTextView.h */,
+				71F31A8EDEA93B4D7536472314EF6C9C /* HYAutoIncreasingTextView.m */,
+				55398BDF8BBA26674663D2D9F2ACF44A /* HYKeyBoardInputView.h */,
+				FABD2459CF90CA9C08EC5708E1C12F71 /* HYKeyBoardInputView.m */,
+				D47CEAC7710FC4AF32EF0A9CC1EE7820 /* HYTextField.h */,
+				884A2CA0EDFA2069AEBF58E1DB2D6FF9 /* HYTextField.m */,
+				F58F49CC2FD0333B3723507C663E6E2C /* HYTextInput.h */,
+				2E9688563CE933342FC6F84FB930593C /* HYTextView.h */,
+				49508DE43C8C0887C05A7B18433F2D39 /* HYTextView.m */,
+				009E0E3B6ABE59858A874B0CF53ADE2D /* Pod */,
+				0125E600A7B6ED0CB347DFE1A8522894 /* Support Files */,
+			);
+			name = HYTextInput;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		67E08C506BD6B4F19F9B2AC36D6479CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE2B95435F2242A570119D760799E7DC /* HYTextInput.framework */,
+				1E2D114B42B407DB492625CCE8FBE169 /* Pods_HYTextInput_Example.framework */,
+				25920E4D6D2779AB33512F62C228F424 /* Pods_HYTextInput_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B45262C60D3144887B0F13DD784E4C4D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1028AE00E95485DBE0DBC06C437C23A /* Pods-HYTextInput_Example */,
+				3A8FD06E67777C265EB8FE48C0D0D825 /* Pods-HYTextInput_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C1028AE00E95485DBE0DBC06C437C23A /* Pods-HYTextInput_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FCD98859AC0602A9F1CAC7D6B4D304E4 /* Pods-HYTextInput_Example.modulemap */,
+				FA792CFBD5C4E5ADC636968CC4AA93F6 /* Pods-HYTextInput_Example-acknowledgements.markdown */,
+				A0C9DAFF982AEF98AF156476CC006FBF /* Pods-HYTextInput_Example-acknowledgements.plist */,
+				1F6EB59598A4EB2C0A18104CCB8B568A /* Pods-HYTextInput_Example-dummy.m */,
+				CE8BECC35CDB87845A5F7651112578BC /* Pods-HYTextInput_Example-frameworks.sh */,
+				6A7090A0FDF523065D49FC8D9A82A645 /* Pods-HYTextInput_Example-Info.plist */,
+				E7D0CA16D7F9E1158BC253C2E7CBC650 /* Pods-HYTextInput_Example-umbrella.h */,
+				D14798C2188423A3EEB04DBD380EF357 /* Pods-HYTextInput_Example.debug.xcconfig */,
+				389FE0211882F1A343697F3C8A11DE80 /* Pods-HYTextInput_Example.release.xcconfig */,
+			);
+			name = "Pods-HYTextInput_Example";
+			path = "Target Support Files/Pods-HYTextInput_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DD16DCAE45409DB66341D550BBA9F737 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				67E08C506BD6B4F19F9B2AC36D6479CB /* Products */,
+				B45262C60D3144887B0F13DD784E4C4D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DD16DCAE45409DB66341D550BBA9F737 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E8171A02FDA54EE595D0C85DB853D14 /* HYTextInput */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0FF58E9185C2BBC44B20E7B62E569447 /* Headers */ = {
+		48A1FA3F80F358A881D40140F5C11EE2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5077E76E4BD7DC43E8EB26EFFAF2CB7B /* Pods-HYTextInput_Example-umbrella.h in Headers */,
+				967B6CF076B2FE163D44D75C13733BF1 /* HYAutoIncreasingTextView.h in Headers */,
+				3EE51D9ABC8CB685AD84C4F8D3188F1A /* HYKeyBoardInputView.h in Headers */,
+				4D394FE08D2DEB734EC8347E356C3A72 /* HYTextField.h in Headers */,
+				2EEF8D6FE4B0DB81C978C42B563BFBAD /* HYTextInput-umbrella.h in Headers */,
+				C95B282AD37D9A04ADE23EEB599A91AD /* HYTextInput.h in Headers */,
+				B5A81AB3C602141A74EF8A82ADE3A379 /* HYTextView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B30CF91590C526679D455AC712DCC12 /* Headers */ = {
+		CBA1C528859CB838DAEF046B18D3BF4E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BC4C31D7D59B7F2D088608D63BD837 /* Pods-HYTextInput_Tests-umbrella.h in Headers */,
+				C5266F021E6CDEDB56987275B7F59758 /* Pods-HYTextInput_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8FD390673DE40942C2133B1F4B95736 /* Headers */ = {
+		D8BD8E4891032593016456B326F061CA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE45D5A23BB50A763B8755224B3EED71 /* HYAutoIncreasingTextView.h in Headers */,
-				FD0E0C98E1529AF28019A3EA03B1AA17 /* HYKeyBoardInputView.h in Headers */,
-				38B67691DB9CE54F56CAA700799911DB /* HYTextField.h in Headers */,
-				C6EBD90E3E6CC964A4A6C13C291F14A5 /* HYTextInput-umbrella.h in Headers */,
-				71340CF85EF23932A66CA17754B02A05 /* HYTextInput.h in Headers */,
-				FD51A8124C3B6C47E728264CEF5D73B2 /* HYTextView.h in Headers */,
+				BF8E901DEF43038271B2663EFDC84C7C /* Pods-HYTextInput_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2C1E56F2D920C7B0FF37BE018F2B6D83 /* Pods-HYTextInput_Tests */ = {
+		487AEDBD003E9217F32004D7EF1408E4 /* HYTextInput */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2A81B78FE7A02FF37384CDC9DFC6BAC /* Build configuration list for PBXNativeTarget "Pods-HYTextInput_Tests" */;
+			buildConfigurationList = C9BA7CD990FFE852623D698760A87623 /* Build configuration list for PBXNativeTarget "HYTextInput" */;
 			buildPhases = (
-				09025D3C2F6A5716A0D662CD3CD46279 /* Sources */,
-				2C3BC7F463CF1EBE3BCD91093F99F6F5 /* Frameworks */,
-				9B30CF91590C526679D455AC712DCC12 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6D90D520516ED35044743DB694522BA8 /* PBXTargetDependency */,
-			);
-			name = "Pods-HYTextInput_Tests";
-			productName = "Pods-HYTextInput_Tests";
-			productReference = EA04176EEDD9B96A6CC1B45180A6F5B3 /* Pods_HYTextInput_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		60AD8F95EBA26EB4691049069ECB0649 /* Pods-HYTextInput_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3C976AFE4DDFA32C2C01E970F578407E /* Build configuration list for PBXNativeTarget "Pods-HYTextInput_Example" */;
-			buildPhases = (
-				DAE2088DF209D4A47274930B7849DA6C /* Sources */,
-				9CF70D4881C43483532915EBBF9091FF /* Frameworks */,
-				0FF58E9185C2BBC44B20E7B62E569447 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B7D2022A8FCD1640B53A2994F1765D85 /* PBXTargetDependency */,
-			);
-			name = "Pods-HYTextInput_Example";
-			productName = "Pods-HYTextInput_Example";
-			productReference = CCAD04E827A6DA12F87FDBA68AC86969 /* Pods_HYTextInput_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BF764515CCFADECE3ABA6EDF5B0E2B11 /* HYTextInput */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 31EDAAE311CCF77586170ADAF250F803 /* Build configuration list for PBXNativeTarget "HYTextInput" */;
-			buildPhases = (
-				2848ED0B3C2CC3687CC503617BFF4369 /* Sources */,
-				9B3EDA96E0CCE26D019C433D8EC033DD /* Frameworks */,
-				C8FD390673DE40942C2133B1F4B95736 /* Headers */,
+				48A1FA3F80F358A881D40140F5C11EE2 /* Headers */,
+				34E12686559529DA1E141C983545F4F6 /* Sources */,
+				8B0A87069C81FAA4143CFA73FD57BC3A /* Frameworks */,
+				509540DFE6FBF2F18691CD1F5466DB98 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -340,120 +301,150 @@
 			);
 			name = HYTextInput;
 			productName = HYTextInput;
-			productReference = AB08A077DDA6A88DB675A805F2EA9359 /* HYTextInput.framework */;
+			productReference = AE2B95435F2242A570119D760799E7DC /* HYTextInput.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A8FAF44453C04F084F6ED73BEFDB9CA /* Pods-HYTextInput_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9233A7CFB2D332EED377F588DE2FC1 /* Build configuration list for PBXNativeTarget "Pods-HYTextInput_Tests" */;
+			buildPhases = (
+				D8BD8E4891032593016456B326F061CA /* Headers */,
+				AAF435D7AEABF78DC97447F98A69CE3B /* Sources */,
+				3FADE14B09784B4633D69C4A3DB70C2A /* Frameworks */,
+				EA92EBC2E9BAEA97FE98AD93801B493D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B5AA1CA4260833D33D6CC0E09FD4FC2 /* PBXTargetDependency */,
+			);
+			name = "Pods-HYTextInput_Tests";
+			productName = "Pods-HYTextInput_Tests";
+			productReference = 25920E4D6D2779AB33512F62C228F424 /* Pods_HYTextInput_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B39EBCA508E887B0E909FBF341E0BFFD /* Pods-HYTextInput_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35C3D2A0A177813F20ABC8E44DE72A0 /* Build configuration list for PBXNativeTarget "Pods-HYTextInput_Example" */;
+			buildPhases = (
+				CBA1C528859CB838DAEF046B18D3BF4E /* Headers */,
+				FC410C0E07E13391B22A2C020FA3C847 /* Sources */,
+				B977C715D13B2FD36E3FEDB4243D69B9 /* Frameworks */,
+				CE6E9AC0806F7B32501190B877BA02F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				777940814C13B8F9BCE0878E977162BD /* PBXTargetDependency */,
+			);
+			name = "Pods-HYTextInput_Example";
+			productName = "Pods-HYTextInput_Example";
+			productReference = 1E2D114B42B407DB492625CCE8FBE169 /* Pods_HYTextInput_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5D63ED668D479CCBD5497F31E49169ED /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 67E08C506BD6B4F19F9B2AC36D6479CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF764515CCFADECE3ABA6EDF5B0E2B11 /* HYTextInput */,
-				60AD8F95EBA26EB4691049069ECB0649 /* Pods-HYTextInput_Example */,
-				2C1E56F2D920C7B0FF37BE018F2B6D83 /* Pods-HYTextInput_Tests */,
+				487AEDBD003E9217F32004D7EF1408E4 /* HYTextInput */,
+				B39EBCA508E887B0E909FBF341E0BFFD /* Pods-HYTextInput_Example */,
+				4A8FAF44453C04F084F6ED73BEFDB9CA /* Pods-HYTextInput_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		509540DFE6FBF2F18691CD1F5466DB98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6E9AC0806F7B32501190B877BA02F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA92EBC2E9BAEA97FE98AD93801B493D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		09025D3C2F6A5716A0D662CD3CD46279 /* Sources */ = {
+		34E12686559529DA1E141C983545F4F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B711FFF7B3D2C813C6706A52167BD27B /* Pods-HYTextInput_Tests-dummy.m in Sources */,
+				3D6507B7150B5BE6D86A2AA6848CAD5E /* HYAutoIncreasingTextView.m in Sources */,
+				4A3084F185586FAF873EC1E80B625FCF /* HYKeyBoardInputView.m in Sources */,
+				572005529800F5AFD503725BC261F9E9 /* HYTextField.m in Sources */,
+				5FAB38D3BDBF69CD17F347F090BE98D0 /* HYTextInput-dummy.m in Sources */,
+				01BA594B893508E6B8B579C45935616B /* HYTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2848ED0B3C2CC3687CC503617BFF4369 /* Sources */ = {
+		AAF435D7AEABF78DC97447F98A69CE3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F89DC854721B65B582EA1B90F900D0A9 /* HYAutoIncreasingTextView.m in Sources */,
-				75C5BD39B157A2F55D1C45936A000AD7 /* HYKeyBoardInputView.m in Sources */,
-				DBEDADE6B02FEE16C8F61B55259E356F /* HYTextField.m in Sources */,
-				80E70557E283108DC626D7010B18285C /* HYTextInput-dummy.m in Sources */,
-				327B6C67531FCFC10E9FC80B43A9E61F /* HYTextView.m in Sources */,
+				D4F1CAE1D12F9DF7C5EA2D39C36465CA /* Pods-HYTextInput_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAE2088DF209D4A47274930B7849DA6C /* Sources */ = {
+		FC410C0E07E13391B22A2C020FA3C847 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6986C1CBEF98B5B99F4075673FA8B15 /* Pods-HYTextInput_Example-dummy.m in Sources */,
+				001FFB7EEFBECE66281490261379FCB0 /* Pods-HYTextInput_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6D90D520516ED35044743DB694522BA8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-HYTextInput_Example";
-			target = 60AD8F95EBA26EB4691049069ECB0649 /* Pods-HYTextInput_Example */;
-			targetProxy = DDB605D3DF1D1206953234303E4D8601 /* PBXContainerItemProxy */;
-		};
-		B7D2022A8FCD1640B53A2994F1765D85 /* PBXTargetDependency */ = {
+		777940814C13B8F9BCE0878E977162BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HYTextInput;
-			target = BF764515CCFADECE3ABA6EDF5B0E2B11 /* HYTextInput */;
-			targetProxy = 7356B43E4D99B608981F80513B52A6DA /* PBXContainerItemProxy */;
+			target = 487AEDBD003E9217F32004D7EF1408E4 /* HYTextInput */;
+			targetProxy = 2CEC98BD634880E9C8075AC32921C1FC /* PBXContainerItemProxy */;
+		};
+		9B5AA1CA4260833D33D6CC0E09FD4FC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HYTextInput_Example";
+			target = B39EBCA508E887B0E909FBF341E0BFFD /* Pods-HYTextInput_Example */;
+			targetProxy = 0C73FF444FE3936DC670B76F4CEF921C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D6A529B773D56AA67BF947B1256A32D /* Debug */ = {
+		1769926BAFE8E86776BB9A48C7568A82 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 091F3D75FF4B086CAD8545C7B5B65DAA /* Pods-HYTextInput_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HYTextInput_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HYTextInput_Example/Pods-HYTextInput_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1F8C465DEEB85FEC369B9F0D350522F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9C1FFE7F44FD11CA924B6901A27FDAB /* HYTextInput.xcconfig */;
+			baseConfigurationReference = 2769506BFD61C4501E2B9C13EB8D2665 /* HYTextInput.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -465,7 +456,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/HYTextInput/HYTextInput-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HYTextInput/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/HYTextInput/HYTextInput-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -476,15 +467,14 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		6B397CFFB5D730800671960EC4FD5586 /* Debug */ = {
+		2F0AD15C731E5F3FE326541B855006F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E76E12B09DED8610FBC803CCD08FD21 /* Pods-HYTextInput_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0DF4F6683C229CFAB5A9920B72CCB3FD /* Pods-HYTextInput_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -496,7 +486,41 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HYTextInput_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYTextInput_Tests/Pods-HYTextInput_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYTextInput_Tests/Pods-HYTextInput_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58FFE295CD282C23E8853B7A1298AD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9878D52F1FD2D5C132E98B08A2F13C47 /* Pods-HYTextInput_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYTextInput_Tests/Pods-HYTextInput_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -515,9 +539,9 @@
 			};
 			name = Debug;
 		};
-		6CBD8632DC92276ECE4C368BA3CB7252 /* Release */ = {
+		80F8C8B042B7458076091D36F8CF8A45 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AC1159EB80E3548C66E5E892D75CD8C /* Pods-HYTextInput_Example.release.xcconfig */;
+			baseConfigurationReference = 389FE0211882F1A343697F3C8A11DE80 /* Pods-HYTextInput_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -529,7 +553,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HYTextInput_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYTextInput_Example/Pods-HYTextInput_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -549,7 +573,7 @@
 			};
 			name = Release;
 		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -581,8 +605,66 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -603,18 +685,21 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		9D31DD4DFC33E296DC967DE442BA8B4D /* Debug */ = {
+		CFC2BD4E5250CD30E1D8A7D4BD2F90C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9C1FFE7F44FD11CA924B6901A27FDAB /* HYTextInput.xcconfig */;
+			baseConfigurationReference = 22EC8B8C61FFDE8576A72157C602E6A0 /* HYTextInput.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -626,7 +711,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/HYTextInput/HYTextInput-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HYTextInput/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/HYTextInput/HYTextInput-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -637,72 +722,15 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
 			name = Release;
 		};
-		D50865392B27558BCF114BB26E51518C /* Release */ = {
+		D6BB56045B30B8277D0D788256929F7E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D9F20FC993965228BB6BB69198C5E52 /* Pods-HYTextInput_Tests.release.xcconfig */;
+			baseConfigurationReference = D14798C2188423A3EEB04DBD380EF357 /* Pods-HYTextInput_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -714,12 +742,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HYTextInput_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYTextInput_Example/Pods-HYTextInput_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HYTextInput_Tests/Pods-HYTextInput_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-HYTextInput_Example/Pods-HYTextInput_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -728,52 +756,51 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		1A9233A7CFB2D332EED377F588DE2FC1 /* Build configuration list for PBXNativeTarget "Pods-HYTextInput_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				58FFE295CD282C23E8853B7A1298AD0B /* Debug */,
+				2F0AD15C731E5F3FE326541B855006F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31EDAAE311CCF77586170ADAF250F803 /* Build configuration list for PBXNativeTarget "HYTextInput" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D31DD4DFC33E296DC967DE442BA8B4D /* Debug */,
-				1F8C465DEEB85FEC369B9F0D350522F1 /* Release */,
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C976AFE4DDFA32C2C01E970F578407E /* Build configuration list for PBXNativeTarget "Pods-HYTextInput_Example" */ = {
+		C9BA7CD990FFE852623D698760A87623 /* Build configuration list for PBXNativeTarget "HYTextInput" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D6A529B773D56AA67BF947B1256A32D /* Debug */,
-				6CBD8632DC92276ECE4C368BA3CB7252 /* Release */,
+				1769926BAFE8E86776BB9A48C7568A82 /* Debug */,
+				CFC2BD4E5250CD30E1D8A7D4BD2F90C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2A81B78FE7A02FF37384CDC9DFC6BAC /* Build configuration list for PBXNativeTarget "Pods-HYTextInput_Tests" */ = {
+		D35C3D2A0A177813F20ABC8E44DE72A0 /* Build configuration list for PBXNativeTarget "Pods-HYTextInput_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B397CFFB5D730800671960EC4FD5586 /* Debug */,
-				D50865392B27558BCF114BB26E51518C /* Release */,
+				D6BB56045B30B8277D0D788256929F7E /* Debug */,
+				80F8C8B042B7458076091D36F8CF8A45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

@@ -9,10 +9,10 @@
 
 @interface HYTextView ()
 
-/**
- UITextView添加一个UILabel，形成占位文字
- */
+/** UITextView添加一个UILabel，形成占位文字 */
 @property (nonatomic, strong) UILabel *placeholderLabel;
+/** 右下角的提示label */
+@property (nonatomic, strong) UILabel *tipsLabel;
 
 @end
 
@@ -27,7 +27,12 @@
     self = [super initWithFrame:frame];
     if (self) {
         _hy_truncatedWhenOverMaxInputLength = YES;
-        
+        _placeholderOffset = UIOffsetZero;
+        _normalTipsText = @"";
+        _focusTipsText = @"";
+        _normalTipsColor = [UIColor blueColor];
+        _focusTipsColor = [UIColor redColor];
+
         self.placeholderLabel = [[UILabel alloc] init];
         self.placeholderLabel.text = @"请输入占位文字";
         self.placeholderLabel.numberOfLines = 0;
@@ -35,6 +40,8 @@
         self.font = [UIFont systemFontOfSize:20.0];
         self.placeholderLabel.font = self.font;
         [self addSubview:self.placeholderLabel];
+        [self addSubview:self.tipsLabel];
+
         // UITextView内容发生变化，发出通知，是否显示UILabel
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textValueDidChanged) name:UITextViewTextDidChangeNotification object:self];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textDidBeginEditing) name:UITextViewTextDidBeginEditingNotification object:self];
@@ -48,6 +55,8 @@
  */
 - (void)textValueDidChanged {
     self.placeholderLabel.hidden = self.hasText;
+    self.tipsLabel.text = self.hasText ? self.focusTipsText : self.normalTipsText;
+    self.tipsLabel.textColor = self.hasText ? self.focusTipsColor : self.normalTipsColor;
     // 代理方法的处理
     if (![self hy_hasMarkedText]) {
         // 最大输入长度的限制
@@ -110,7 +119,22 @@
 - (void)setFont:(UIFont *)font {
     [super setFont:font]; //这里需要调用父类的方法,否则会报错，并且字体不一致
     self.placeholderLabel.font = font;
+    self.tipsLabel.font = font;
     [self setNeedsLayout]; //UITextView的字体变化，内部的placeholderLabel也要跟随变化
+}
+
+- (void)setNormalTipsText:(NSString *)normalTipsText {
+    _normalTipsText = [normalTipsText copy];
+    [self setNeedsLayout];
+}
+
+- (void)setFocusTipsText:(NSString *)focusTipsText {
+    _focusTipsText = [focusTipsText copy];
+    [self setNeedsLayout];
+}
+
+- (void)setNormalTipsColor:(UIColor *)normalTipsColor {
+    _tipsLabel.textColor = normalTipsColor;
 }
 
 /**
@@ -120,8 +144,17 @@
     [super layoutSubviews];
     // 根据placeholderLabel的内容计算宽度和高度
     CGFloat maxWidth = self.frame.size.width - self.textContainerInset.left - self.textContainerInset.right;
-    CGRect placeholderRect = [self.placeholderLabel.text boundingRectWithSize:CGSizeMake(maxWidth, CGFLOAT_MAX)    options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:self.placeholderLabel.font} context:nil];
-    self.placeholderLabel.frame = CGRectMake(self.textContainerInset.left + 3.0, self.textContainerInset.top, placeholderRect.size.width, placeholderRect.size.height);
+    CGRect placeholderRect = [self.placeholderLabel.text boundingRectWithSize:CGSizeMake(maxWidth, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:self.placeholderLabel.font} context:nil];
+    self.placeholderLabel.frame = CGRectMake(self.textContainerInset.left + 3.0 + self.placeholderOffset.horizontal, self.textContainerInset.top + self.placeholderOffset.vertical, placeholderRect.size.width, placeholderRect.size.height);
+
+    // 右下角提示文案
+    NSString *tipsText = self.normalTipsText;
+    if (self.focusTipsText && self.focusTipsText.length > tipsText.length) {
+        tipsText = self.focusTipsText;
+    }
+
+    CGRect tipsRect = [tipsText boundingRectWithSize:CGSizeMake(maxWidth, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:self.tipsLabel.font} context:nil];
+    self.tipsLabel.frame = CGRectMake(self.textContainerInset.left + 3.0, CGRectGetHeight(self.frame) - self.textContainerInset.bottom - tipsRect.size.height, maxWidth, tipsRect.size.height);
 }
 
 /**
@@ -129,6 +162,17 @@
  */
 - (void)dealloc{
     [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+- (UILabel *)tipsLabel {
+    if (!_tipsLabel) {
+        _tipsLabel = [[UILabel alloc] init];
+        _tipsLabel.text = @"请输入提示文案";
+        _tipsLabel.font = [UIFont systemFontOfSize:12.0f];
+        _tipsLabel.textColor = _normalTipsColor;
+        _tipsLabel.textAlignment = NSTextAlignmentRight;
+    }
+    return _tipsLabel;;
 }
 
 #pragma mark - range / textRange

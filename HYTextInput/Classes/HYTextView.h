@@ -36,6 +36,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *placeholder;
 /** 占位文字颜色 */
 @property (nonatomic, strong) UIColor *placeholderColor;
+/** 占位文字位置偏移量 */
+@property (nonatomic, assign) UIOffset placeholderOffset;
+
+/** 普通情况下的提示文案 */
+@property (nonatomic, copy) NSString *normalTipsText;
+/** 输入框激活情况下的提示文案 */
+@property (nonatomic, copy) NSString *focusTipsText;
+/** 普通情况下提示文案颜色 */
+@property (nonatomic, strong) UIColor *normalTipsColor;
+/** 输入框激活情况下提示文案颜色 */
+@property (nonatomic, strong) UIColor *focusTipsColor;
 
 /** 输入内容发生改变会调用的方法 */
 - (void)textValueDidChanged;
