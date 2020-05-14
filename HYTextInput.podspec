@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'HYTextInput'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'HYTextInput'
   s.description      = <<-DESC
-OC 中的文字输入
+OC 中的文字输入，封装了一些常用的功能
                        DESC
   s.homepage         = 'https://github.com/oceanfive/HYTextInput'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
