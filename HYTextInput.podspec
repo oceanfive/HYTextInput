@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HYTextInput'
-  s.version          = '0.0.4'
+  s.version          = '0.0.7'
   s.summary          = 'HYTextInput'
   s.description      = <<-DESC
 OC 中的文字输入，封装了一些常用的功能

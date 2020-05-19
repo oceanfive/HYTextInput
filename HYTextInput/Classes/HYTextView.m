@@ -27,6 +27,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         _hy_truncatedWhenOverMaxInputLength = YES;
+        _isShowRemainingCountWhenFocus = YES;
         _placeholderOffset = UIOffsetZero;
         _normalTipsText = @"";
         _focusTipsText = @"";
@@ -86,6 +87,11 @@
     if (self.hy_delegate && [self.hy_delegate respondsToSelector:@selector(hy_textViewDidChange:)]) {
         [self.hy_delegate hy_textViewDidChange:self];
     }
+    // 剩余输入字符数
+    if (self.isShowRemainingCountWhenFocus) {
+        NSString *text = [NSString stringWithFormat:@"%@/%@", @(self.text.length), @(self.hy_maxInputLength)];
+        self.tipsLabel.text = text;
+    }
 }
 
 - (void)textDidBeginEditing {
@@ -125,6 +131,7 @@
 
 - (void)setNormalTipsText:(NSString *)normalTipsText {
     _normalTipsText = [normalTipsText copy];
+    self.tipsLabel.text = _normalTipsText;
     [self setNeedsLayout];
 }
 
@@ -134,6 +141,7 @@
 }
 
 - (void)setNormalTipsColor:(UIColor *)normalTipsColor {
+    _normalTipsColor = normalTipsColor;
     _tipsLabel.textColor = normalTipsColor;
 }
 

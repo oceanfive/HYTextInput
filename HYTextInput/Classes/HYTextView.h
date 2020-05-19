@@ -47,6 +47,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIColor *normalTipsColor;
 /** 输入框激活情况下提示文案颜色 */
 @property (nonatomic, strong) UIColor *focusTipsColor;
+/** 是否显示激活状态下剩余输入字符数目 */
+@property (nonatomic, assign) BOOL isShowRemainingCountWhenFocus;
 
 /** 输入内容发生改变会调用的方法 */
 - (void)textValueDidChanged;

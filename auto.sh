@@ -1,7 +1,7 @@
 #! /bin/sh
 
 # 只需要修改这个内容就行，其他的内容不需要改动
-git_commit_des="右下角添加提示文案"
+git_commit_des="# 完善"
 
 echo "\n******** begin ********\n"
 

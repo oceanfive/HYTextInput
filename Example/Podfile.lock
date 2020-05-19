@@ -1,5 +1,5 @@
 PODS:
-  - HYTextInput (0.0.3)
+  - HYTextInput (0.0.5)
 
 DEPENDENCIES:
   - HYTextInput (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HYTextInput: db2d2e3f09aff19b45f8700b05004c0c6571dbd9
+  HYTextInput: fdce6ed6d6a36fcc6623fbf8e74a6b9bd4e72e73
 
 PODFILE CHECKSUM: fec71f9eb207fffcd4669b621d279cf394636cbf
 
