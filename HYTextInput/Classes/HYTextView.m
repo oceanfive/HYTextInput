@@ -28,6 +28,7 @@
     if (self) {
         _hy_truncatedWhenOverMaxInputLength = YES;
         _isShowRemainingCountWhenFocus = YES;
+        _lengthOfShowTips = 10;
         _placeholderOffset = UIOffsetZero;
         _normalTipsText = @"";
         _focusTipsText = @"";
@@ -88,7 +89,7 @@
         [self.hy_delegate hy_textViewDidChange:self];
     }
     // 剩余输入字符数
-    if (self.isShowRemainingCountWhenFocus) {
+    if (self.lengthOfShowTips > 0 && self.text.length >= self.lengthOfShowTips) {
         NSString *text = [NSString stringWithFormat:@"%@/%@", @(self.text.length), @(self.hy_maxInputLength)];
         self.tipsLabel.text = text;
     }
@@ -162,7 +163,9 @@
     }
 
     CGRect tipsRect = [tipsText boundingRectWithSize:CGSizeMake(maxWidth, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:self.tipsLabel.font} context:nil];
-    self.tipsLabel.frame = CGRectMake(self.textContainerInset.left + 3.0, CGRectGetHeight(self.frame) - self.textContainerInset.bottom - tipsRect.size.height, maxWidth, tipsRect.size.height);
+    CGFloat mHeight = self.contentSize.height <= self.bounds.size.height ? self.bounds.size.height : self.contentSize.height;
+    CGFloat tipsLabelY = mHeight - self.textContainerInset.bottom - tipsRect.size.height;
+    self.tipsLabel.frame = CGRectMake(self.textContainerInset.left + 3.0, tipsLabelY, maxWidth, tipsRect.size.height);
 }
 
 /**

@@ -1,6 +1,6 @@
 {
   "name": "HYTextInput",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "summary": "HYTextInput",
   "description": "OC 中的文字输入，封装了一些常用的功能",
   "homepage": "https://github.com/oceanfive/HYTextInput",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/oceanfive/HYTextInput.git",
-    "tag": "0.0.5"
+    "tag": "0.0.8"
   },
   "platforms": {
     "ios": "7.0"
